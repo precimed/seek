@@ -142,7 +142,7 @@ module Seek
     end
 
     def find_or_keep_type_with_mime_magic
-      detected_mime_type = mime_types_for_extension(file_extension).sort.first
+      detected_mime_type = mime_types_for_extension(file_extension).first
 
       if detected_mime_type.nil? && file_exists?
         io = File.open(filepath)
