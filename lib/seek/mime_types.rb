@@ -35,7 +35,8 @@ module Seek
       'application/vnd.oasis.opendocument.spreadsheet' => { name: 'Spreadsheet', icon_key: 'xls_file', extensions: ['ods'] },
       'application/rtf' => { name: 'RTF document', icon_key: 'rtf_file', extensions: ['rtf'] },
       'text/html' => { name: 'HTML document', icon_key: 'html_file', extensions: ['html'] },
-      'application/json' => { name: 'JSON document', icon_key: 'misc_file', extensions: ['json'] }
+      'application/json' => { name: 'JSON document', icon_key: 'misc_file', extensions: ['json'] },
+      'application/matlab' => { name: 'Matlab file', icon_key: 'misc_file', extensions: ['m','mat']}
     }
 
     # Get a nice, human readable name for the MIME type
